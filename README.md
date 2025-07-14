@@ -1,5 +1,30 @@
-# Vue 3 + Vite
+# 0508070_VUE_HomeWork_2
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 台北市 Youbike 站點查詢
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+### 按鈕功能說明
+
+1. **搜尋功能**  
+   - 使用者將欲搜尋的關鍵字鍵入輸入框後，點選【搜尋】按鈕。  
+   - 系統會依據關鍵字找尋相關的 Youbike 站點資料，並將符合條件的結果顯示於頁面上。
+
+2. **加入收藏**  
+   - 在搜尋結果中，鼠標移到某個 Youbike 站點資料上，點擊【加入收藏】按鈕。  
+   - 系統會將該站點的詳細資料，抓取並顯示於【站點詳細資訊】區域，並加入我的收藏。
+
+3. **刪除收藏**  
+   - 在【我的收藏列表】中，列出所有已收藏的 Youbike 站點資料。  
+   - 點擊【刪除收藏】，該站點資料會從收藏列表中移除，並同步將資料從本地儲存（Local Storage）中刪除。
+
+---
+
+# 其他說明  
+- 本專案會利用 Vue.js 製作前端介面，並搭配 Local Storage 保存收藏資料。  
+- 使用者操作流程為：  
+  1. 輸入搜尋關鍵字並點擊搜尋 → 顯示相關站點資料  
+  2. 將鼠標移到資料上，點擊【加入收藏】 → 顯示站點詳細資料並加入收藏  
+  3. 在【我的收藏】中管理收藏的站點，支持刪除功能。
+
+---
